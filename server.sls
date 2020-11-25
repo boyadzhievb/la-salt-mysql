@@ -1,3 +1,3 @@
 mysql_server_install:
-  pkg_installed:
+  pkg.installed:
     - name: mariadb-server
