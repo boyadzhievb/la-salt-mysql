@@ -6,6 +6,7 @@
     'cnf_file': 'salt://mysql/files/deb_mysqld.cnf',
     'cnf_name': '/etc/mysql/mysql.conf.d/mysqld.cnf',
     'service': 'mysql',
+    'python': 'python3-mysqldb',
   },
   'RedHat': {
     'server': 'mariadb-server',
@@ -13,6 +14,7 @@
     'cnf_file': 'salt://mysql/files/rh_server.cnf',
     'cnf_name': '/etc/my.cnf.d/server.cnf',
     'service': 'mariadb',
+    'python': 'python36-mysql',
   },
 
 })%}
